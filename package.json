@@ -2,6 +2,7 @@
 	"name": "fcc-adamxtokyo-timestamp",
 	"version": "1.0.0",
 	"description": "freeCodeCamp API Project: Timestamp Microservice",
+	"homepage": "https://fcc-adamxtokyo-timestamp.herokuapp.com/",
 	"author": "Adam Grawender",
 	"license": "MIT",
 	"main": "server.js",

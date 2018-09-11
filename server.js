@@ -20,9 +20,11 @@ app.get('/', function (req, res) {
 
 // API endpoints
 app.get('/api/timestamp/:ts', function (req, res) {
-    let ts = new Date(req.params.ts)
+
+    let ts = req.params.ts === '' ? new Date() : new Date(req.params.ts)
+
     if (!ts.getTime()) ts = new Date(Number(req.params.ts))
-    if (!ts.getTime()) return res.json({"error": "Invalid Date"})
+
     return res.json({"unix": ts.getTime(), "utc": ts.toUTCString()})
 })
 

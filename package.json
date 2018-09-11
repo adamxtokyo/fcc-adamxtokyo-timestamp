@@ -1,0 +1,22 @@
+{
+	"name": "fcc-adamxtokyo-timestamp",
+	"version": "1.0.0",
+	"description": "freeCodeCamp API Project: Timestamp Microservice",
+	"author": "Adam Grawender",
+	"license": "MIT",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"cors": "^2.8.4",
+		"express": "^4.16.3"
+	},
+	"engines": {
+	    "node": "10.2.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/adamxtokyo/fcc-adamxtokyo-timestamp.git"
+	}
+}
